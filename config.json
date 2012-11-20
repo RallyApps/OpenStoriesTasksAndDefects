@@ -1,0 +1,12 @@
+{
+    "name": "OpenStoriesTasksAndDefects",
+    "className": "CustomApp",
+    "server": "https://rally1.rallydev.com",
+    "sdk": "1.32",
+    "javascript": [
+        "OpenStoriesTasksAndDefects.js"
+    ],
+    "css": [
+        "OpenStoriesTasksAndDefects.css"
+    ]
+}

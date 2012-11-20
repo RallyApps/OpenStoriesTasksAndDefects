@@ -1,0 +1,23 @@
+body {
+	font-size: 10pt;
+}
+
+#iterations {
+	float: left;
+}
+
+#wait {
+	float: left; 
+	height: 16px; 
+	width: 24px;
+}
+
+h4#UserNameHeader {
+	clear: both;
+	padding-top: 15px
+}
+
+.count {
+	margin-left: 10px; 
+	margin-bottom: 5px;
+}
