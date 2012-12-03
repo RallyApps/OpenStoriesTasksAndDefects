@@ -2,6 +2,11 @@ body {
 	font-size: 10pt;
 }
 
+.count {
+	margin-left: 10px; 
+	margin-bottom: 5px;
+}
+
 #iterations {
 	float: left;
 }
@@ -15,9 +20,4 @@ body {
 h4#UserNameHeader {
 	clear: both;
 	padding-top: 15px
-}
-
-.count {
-	margin-left: 10px; 
-	margin-bottom: 5px;
 }

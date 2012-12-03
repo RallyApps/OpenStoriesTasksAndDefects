@@ -11,13 +11,15 @@
 
   <script type="text/javascript">
     function onLoad() {
+      var appCustom = new OpenStoriesTasksAndDefects();
+
       rallyDataSource = new rally.sdk.data.RallyDataSource('__WORKSPACE_OID__',
                                                            '__PROJECT_OID__',
                                                            '__PROJECT_SCOPING_UP__',
                                                            '__PROJECT_SCOPING_DOWN__');
       var iterConfig = {label: "Select Iteration "};
       iterDropdown = new rally.sdk.ui.IterationDropdown(iterConfig, rallyDataSource);
-      iterDropdown.display("iterations", onIterationSelected);
+      iterDropdown.display("iterations", appCustom.onIterationSelected);
     }
 
     rally.addOnLoad(onLoad);
