@@ -17,7 +17,7 @@ Or you can just click [here](https://raw.github.com/RallyApps/OpenStoriesTasksAn
 
 ### Using the App
 
-You can specify an iteration by using the drop down menu on the top of the app. The app categorizes the items separately: Stories, Defects, and Tasks. You can click on the column headers to sort items in ascending or descending order. You can also click on the item number link to take you to the detail page of the user story, defect, or task item. 
+You can specify an iteration by using the drop down menu on the top of the app. The app categorizes the items separately: Stories, Defects, and Tasks. You can click on the column headers to sort items in ascending or descending order. You can also click on the item number link to take you to the detail page of the user story, defect, or task item (<b>note:</b> this will not work if you run the app through App-debug.html). 
 
 ## Customize this App
 
